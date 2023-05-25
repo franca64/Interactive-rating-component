@@ -1,4 +1,9 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
 /*
+
   1. Use a more-intuitive box-sizing model.
 */
 *, *::before, *::after {
@@ -57,28 +62,131 @@
     font-size: 15px;
 }
 body {
-    background-color: hsl(216, 12%, 8%);  
-    /* display:flex;
-    justify-content:center; */
-    height: 100vh;
-    display: grid;
-    place-content: center;
+  background-color: hsl(216, 12%, 8%);  
+ /* display:flex;
+  justify-content:center; */
+  height: 100vh;
+  display: grid;
+  place-content: center;
 }
 .ratingbox{
-    width: 22rem;
-    height: 22rem;
-    background-color:hsl(213, 19%, 18%);
-    border-radius: 25px;
+  width: 23rem;
+  height: 23rem;
+  background-color:hsl(213, 19%, 18%);
+  border-radius: 25px;
+  margin-bottom: 3rem;
 }
 .starbox{
-        /* width: fit-content; */
-        width: 30px;
-        /* height: 30px; */
-        aspect-ratio: 1;
-        background-color: white;
-        /* padding: 0.3rem; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
+ width: 40px;
+ aspect-ratio: 1;
+ background-color:  hsl(212, 17%, 22%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+ margin-top: 2rem;
+ margin-left: 2rem;
+}
+.wordings{
+ margin-left: 2rem;
+ margin-top: 1rem;
+margin-right: 2rem;
+}
+.wordings h1{
+  color:  hsl(0, 0%, 100%);
+  font-weight:700;
+  font-size: x-large;
+  font-family: 'Overpass', sans-serif;
+}
+.wordings p{
+  font-size: small;
+  margin-top: 0.3rem;
+  font-family: 'Overpass', sans-serif;
+  color: hsl(217, 12%, 63%);
+}
+.figurebox{
+ width: 40px;
+ aspect-ratio: 1;
+ background-color: white;
+ background-color:  hsl(212, 17%, 22%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+ margin-top: 2rem;
+ margin-left: 1rem;
+}
+.figurebox p{
+  color:hsl(217, 12%, 63%);
+  font-family:'Overpass', sans-serif;
+}
+.figurebox:hover{
+  background-color:  hsl(25, 97%, 53%);
+}
+.figurebox:visited:hover{
+  background-color:hsl(217, 12%, 63%);
+  color: white;
+}
+.rating-figure{
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  margin-right: 2rem;
+}
+input{
+  width: 18rem;
+  height: 2.5rem;
+  font-family: 'Overpass', sans-serif;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  background-color:hsl(25, 97%, 53%);
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+}
+input:hover{
+  background-color:white;
+  color: hsl(25, 97%, 53%);
+}
+.Thankyou-box{
+  width: 23rem;
+  height: 23rem;
+  background-color:hsl(213, 19%, 18%);
+  border-radius: 25px;
+  margin-bottom: 3rem;
+}
+.print{
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+button{
+  width: 11rem;
+  height: 1.7rem;
+  font-family: 'Overpass', sans-serif;
+  font-size: small;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+  color:hsl(25, 97%, 53%) ;
+  background-color:  hsl(210, 5%, 22%);
+  opacity: .8;
+  
+}
+.thankyoutext h1{
+color: white;
+margin-left: 7rem;
+font-size: x-large;
+font-family: 'Overpass', sans-serif;
+}
+.thankyoutext p{
+  color: hsl(217, 12%, 63%);
+  margin-left: 2rem;
+  margin-right: 1.2rem;
+  font-size: small;
+  font-family: 'Overpass', sans-serif;
+  line-height: 20px;
+  font-weight: 500;
 }
